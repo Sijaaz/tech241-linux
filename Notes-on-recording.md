@@ -27,6 +27,9 @@ Software which provides an interface to run the commands.
 
 **Navigating files and folders**
 
+````
+*
+
 cat command - to print out files 
 
 ps -p <- to specify the shell you are running and process you are running.
@@ -102,9 +105,8 @@ tail -2 nameoffile <- will give you last two lines of the file
 
 nl nameoffile <- will number your file
 
+*
 
-
-
-
+```
 
 

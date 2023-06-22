@@ -1,7 +1,7 @@
 **Task 2.8A**
 
-**
-Why is managing file ownership important?**
+
+**Why is managing file ownership important?**
 
 File ownership determines who can access and modify a file or folder.
 
