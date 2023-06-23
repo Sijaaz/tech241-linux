@@ -1,3 +1,10 @@
+
+![Alt text](<Diagram (1).JPG>)
+
+
+
+
+
 **What is virtualisation?**
 
 Virtualisation is a technology that allows you to create virtual versions of servers, storage, networks, and other physical machines. Using virtual software imitates the functions of actual hardware, enabling multiple virtual machines to run simultaneously on a single physical machine.
@@ -76,3 +83,5 @@ Reproducibility: Images allow easy recreation of specific VM configurations, use
 Security and stability: Trusted images undergo testing, updates, and security patches, enhancing VM security and stability.
 
 Versioning and rollbacks: Images enable managing changes and reverting to previous configurations if needed.
+
+https://aws.amazon.com/what-is/virtualization/#:~:text=Virtualization%20is%20technology%20that%20you,on%20a%20single%20physical%20machine.
