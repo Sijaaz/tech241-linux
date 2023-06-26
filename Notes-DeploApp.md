@@ -92,8 +92,75 @@ To check if bindIP has been changed correctly
  cat /etc/nameoffile
  ```
 - Start mongo db
+
+sudo systemctl start mongod
   
 - Enable mongo db
+
+sudo systemctl enable mongod
+
+To check
+
+sudo systemctl status mongod
   
 - Configure mongo db to accept connections from any app VM.
+
+**To connect VM app t0 VM Database**
+
+Open two gitbash terminals - one for app and one for database.
+
+**For App VM**
+
+Go to DB Virtual Machine on Azure
+
+Go to Networking
+
+Add Inbound security rule
+
+Destination - ANY
+
+Service - CUSTOM
+
+Destination Port ranges - 27017
+
+Protocol - TCP
+
+Action - Allow
+
+Priority - 310
+
+Name - No changes
+
+Description - For Mongo DB
+
+
+Set a environmental variable - so that app can look up the value (This will specify IP address and port of the database)
+
+Go to app folder
+```
+export DB_HOST=mongodb://<IP-ADDRESS>:27017/posts
+
+export DB_HOST=mongodb://51.142.195.122:27017/posts
+
+Enter the IP address of DB 
+
+```
+This will create a DB_HOST environment variable.
+
+**To check environment variable:**
+
+```
+printenv DB_HOST
+```
+```
+npm install
+```
+
+```
+npm start
+```
+
+**To check on webpage:**
+
+IP address:3000/posts
 
