@@ -60,6 +60,8 @@ While owners can modify permissions, they still need to follow the actual permis
 The specific actions an owner can perform on a file depend on their assigned permissions.
 Ownership provides control, but actual permissions define file access and operations.
 
+Owner gets r, w and execute when they create a directory and read adn write for files created.
+
 **If you give permissions to the User entity, what does this mean?**
 
 If you give permissions to the User entity, it means that you are granting specific rights and access to an individual user account on a system or a file.

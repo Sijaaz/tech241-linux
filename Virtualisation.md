@@ -3,8 +3,6 @@
 
 
 
-
-
 **What is virtualisation?**
 
 Virtualisation is a technology that allows you to create virtual versions of servers, storage, networks, and other physical machines. Using virtual software imitates the functions of actual hardware, enabling multiple virtual machines to run simultaneously on a single physical machine.
