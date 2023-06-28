@@ -1,5 +1,5 @@
 
-# The difference between using & and nohup
+# <u> **The difference between using & and nohup** </u>
 
 
 If you run node app.js & - this will run the app in the background however you can't start the app again.

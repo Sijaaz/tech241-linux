@@ -1,4 +1,7 @@
-**Task 2.8A**
+# **<u> Task on File permissions** </u>
+
+
+## <u> **Task 2.8A** </u>
 
 
 **Why is managing file ownership important?**
@@ -45,7 +48,7 @@ The chown command is used.
 To change the owner of a file use the chown command followed by the user name of the new owner and the target file as an argument
 
 
-**Task 2.8B**
+## <u> **Task 2.8B** </u>
 
 Does being the owner of a file mean you have full permissions on that file? Explain.
 
@@ -97,7 +100,7 @@ User Group can execute and read the file.
 
 Others can execute and read the file.
 
-**Task 2.8C**
+## <u> **Task 2.8C** </u>
 
 **What numeric values are assigned to each permission?**
 
@@ -128,7 +131,7 @@ The first digit (6): Represents the permissions for the owner of the file.
 The second digit (4): Represents the permissions for the group associated with the file.
 The third digit (4): Represents the permissions for other users, i.e., users not in the owner's group.
 
-**Task 2.8D**
+## <u> **Task 2.8D** </u>
 
 **What command changes file permissions?**
 
@@ -214,7 +217,7 @@ r - 4 (read)
 w - 2 (write)
 x - 1 (execute)
 
-Extra resources used:
+**<u>Extra resources used:**</u>
 
 https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet-old?intcmp=701f20000012ngPAAQ
 

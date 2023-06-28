@@ -1,35 +1,52 @@
-**What is bash?**
-
-Bourne Again SHell (Bash)
-
-1) Bash stands for Bourne Again SHell.
-2) It is a command-line shell and scripting language.
-3) Default shell for Unix-based operating systems like Linux and macOS.
-4) Provides a text-based interface for interacting with the operating system.
-5) Allows executing commands to navigate directories, run programs, manipulate files and folders, and manage system settings.
-6) Supports scripting, enabling the creation of Bash scripts to automate tasks and perform complex operations.
-7) Bash scripts are files containing a series of commands executed together.
-8) Powerful tool for system administration, task automation, and small program development.
-
-**What is a shell? **
-
-Software which provides an interface to run the commands.
-
-1) A shell acts as a mediator between the user and the operating system.
-2) It accepts commands from the user, interprets them, and communicates with the operating system to execute those commands.
-3) The user inputs commands into the shell by typing them as text.
-4) The shell then processes these commands and performs the requested actions, such as running programs, manipulating files, or configuring system settings.
-5) Shells provide features like command history, command completion (auto-suggesting commands), and the ability to run commands in the background.
-6) They often have built-in programming features, such as variables, loops, conditionals, and functions, allowing users to write scripts or automate tasks.
-7) Shells come in different platforms, with popular ones including Bash (Bourne Again SHell), PowerShell, and Zsh.
+# <u> **Scripts** </u>
 
 
+## <u>**What is bash?**</u>
 
-**Navigating files and folders**
+
+1. Bash stands for Bourne Again SHell.
+   
+2. It is a command-line shell and scripting language.
+   
+3. Default shell for Unix-based operating systems like Linux and macOS.
+   
+4. Provides a text-based interface for interacting with the operating system.
+   
+5. Allows executing commands to navigate directories, run programs, manipulate files and folders, and manage system settings.
+   
+6. Supports scripting, enabling the creation of Bash scripts to automate tasks and perform complex operations.
+   
+7. Bash scripts are files containing a series of commands executed together.
+   
+8. Powerful tool for system administration, task automation, and small program development.
+
+
+## <u>**What is a shell?**</u>
+
+
+1. Software which provides an interface to run the commands.
+
+2. A shell acts as a mediator between the user and the operating system.
+   
+3. It accepts commands from the user, interprets them, and communicates with the operating system to execute those commands.
+   
+4. The user inputs commands into the shell by typing them as text.
+   
+5. The shell then processes these commands and performs the requested actions, such as running programs, manipulating files, or configuring system settings.
+   
+6. Shells provide features like command history, command completion (auto-suggesting commands), and the ability to run commands in the background.
+   
+7. They often have built-in programming features, such as variables, loops, conditionals, and functions, allowing users to write scripts or automate tasks.
+   
+8. Shells come in different platforms, with popular ones including Bash (Bourne Again SHell), PowerShell, and Zsh.
+
+
+
+## **<u>Navigating files and folders** </u>
+
+
 
 ````
-*
-
 cat command - to print out files 
 
 ps -p <- to specify the shell you are running and process you are running.
@@ -104,9 +121,4 @@ head -2 nameoffile <- Will give first two lines of the file
 tail -2 nameoffile <- will give you last two lines of the file
 
 nl nameoffile <- will number your file
-
-*
-
-```
-
 
